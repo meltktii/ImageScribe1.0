@@ -1,0 +1,135 @@
+/* Center the container on the page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #E5E4E2;
+    background-image: url('/static/images/ava6.png');
+    background-size: 600px;
+    background-position-x: 900px;
+    background-position-y: 120px;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: #36454F;
+    font-size: 55px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: 900px;
+    text-align: center;
+    font-family: Arial black, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 35px;
+    color: #1e1b3a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+       /* Add some basic styling for the error state */
+.error {
+    border: #FFF8E8;
+}
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    display: none; /* Hidden by default */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.error-message.show {
+    display: block; /* Show when there's an error */
+}
+
+/* Container for the login form */
+.container {
+    background-color: #A9A9A9;
+    padding: 30px;
+    border-radius: 35px;
+    width: 300px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 2);
+    margin-right:660px;
+    margin-left: 320px;
+}
+
+/* Form elements */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.btn{
+    color: black;
+    font-weight: bold;
+}
+
+button.btn {
+    width: 50%;
+    background-color: #E5E4E2;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.btn:hover {
+    background-color: #A9A9A9;
+}
+
+/* Optional link style */
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.password-requirements {
+     display: none; /* Hidden by default */
+     color: red;   /* Red color for warning text */
+     margin-top: 5px; /* Space above the requirements */
+}
+
+.password-icon {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #F9E8C9;
+      color: black;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 20px;
+      margin-left: 5px;
+      cursor: pointer;
+}
+
+.form-group.error .password-requirements {
+     display: block; /* Show requirements on error */
+}
+
+.eyecon{
+    position: fixed;
+    width: 35px;
+    cursor: pointer;
+    right: 1275px;
+    top: 592px;
+}
